@@ -80,7 +80,7 @@ export const createLinkedList = (firstNodeValue) => {
         let newTail = at(_size-2);
         newTail.next = null;
         _tail = newTail;
-        size--;
+        _size--;
         return value;
     };
 
